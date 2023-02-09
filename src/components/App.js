@@ -1,13 +1,13 @@
-import React, {Component, useState} from "react";
-import "./../styles/App.css";
+import React, { useState } from "react";
+import './../styles/App.css';
 
-function App() {
+const App = (props) => {
+
   return (
-    <div id="main">
+    <div className="App" id="main">
       // Do not alter the main div
     </div>
   );
 }
 
-
-export default App;
+export default App
